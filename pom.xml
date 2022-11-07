@@ -37,7 +37,7 @@
                 <executions>
                     <execution>
                         <phase>package</phase>
-                        <goals>
+<!--                        <goals>
                             <goal>shade</goal>
                         </goals>
                         <configuration>
@@ -47,10 +47,12 @@
                                     <mainClass>hello.HelloWorld</mainClass>
                                 </transformer>
                             </transformers>
-                        </configuration>
+                        </configuration>-->
                     </execution>
                 </executions>
             </plugin>
         </plugins>
     </build>
+    <name>My Forecaster</name>
+    <description>Project for time series forecast using the various methods in the literature</description>
 </project>
